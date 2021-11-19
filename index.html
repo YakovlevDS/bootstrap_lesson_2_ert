@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<title>Hello, world!</title>
+	<style>
+	.bs .row > .col, .bs .row > [class^="col-"] {
+		padding-top: .75rem;
+		padding-bottom: .75rem;
+		background-color: #5a6268;
+		border: 1px solid #000;
+		color: #fff;
+	}
+	.flex-cols{
+		min-height: 10rem;
+		background-color: #ccc;
+	}
+	body{
+		margin-bottom: 100px;
+	}
+	</style>
+</head>
+<body>
+
+	<div class="bs">
+		<div class="container">
+			<h3>Колонки одинаковой ширины</h3>
+			<div class="row">
+				<div class="col">col-1</div>
+				<div class="col">col-2</div>
+				<div class="col">col-3</div>
+			</div>
+
+			<h3 class="mt-5">Установка ширины одного столбца</h3>
+			<div class="row">
+				<div class="col">Sidebar 1</div>
+				<div class="col-6">Content</div>
+				<div class="col">Sidebar 2</div>
+			</div>
+
+			<h3 class="mt-5">Содержание переменной ширины</h3>
+			<div class="row">
+				<div class="col">Sidebar 1</div>
+				<div class="col-6">Content</div>
+				<div class="col-auto">Sidebar 2 Lorem ipsum.</div>
+			</div>
+
+			<h3 class="mt-5">Колонки одинаковой ширины в несколько строк</h3>
+			<div class="row">
+				<div class="col">col-1</div>
+				<div class="col">col-2</div>
+				<div class="w-100"></div>
+				<div class="col">col-3</div>
+				<div class="col">col-4</div>
+			</div>
+
+			<!--  -->
+			<h3 class="mt-5">Breakpoints</h3>
+			<h3>Складывание колонок по горизонтали</h3>
+			<div class="row">
+				<div class="col-sm">col</div>
+				<div class="col-sm">col</div>
+				<div class="col-sm">col</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-md-4">Sidebar 1</div>
+				<div class="col-md-8">Content</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-md-3">Sidebar 1</div>
+				<div class="col-md-6">Content</div>
+				<div class="col-md-3">Sidebar 2</div>
+			</div>
+
+			<h3 class="mt-5">Комбинирование классов</h3>
+			<div class="row">
+				<div class="col-md-3 col-sm-4">Sidebar 1</div>
+				<div class="col-md-6 col-sm-8">Content</div>
+				<div class="col-md-3">Sidebar 2</div>
+			</div>
+
+			<h3 class="mt-5">Переполнение ряда</h3>
+			<div class="row">
+				<div class="col-md-3 col-sm-4">Sidebar 1</div>
+				<div class="col-md-6 col-sm-8">Content</div>
+				<div class="col-md-4">Sidebar 2</div>
+			</div>
+
+			<h3 class="mt-5">Сброс отступов</h3>
+			<div class="row no-gutters">
+				<div class="col-md-3 col-sm-4">Sidebar 1</div>
+				<div class="col-md-6 col-sm-8">Content</div>
+				<div class="col-md-3">Sidebar 2</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
